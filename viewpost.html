@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Naivea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krub:700i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04e98bbc3c.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="index.com">Naivea</a>
+            <span class="navbar-text">
+                #1 Community for Programmers
+            </span>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <a class="nav-login" href="login.html">Login</a>
+                <a href="signup.html"><button class="btn btn-primary my-2 my-sm-0" type="button">Sign Up</button></a>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-12">
+                <div class="card user-profile">
+                    <div class="center-img">
+                        <img src="image/chip-chat@2x.png" class="center-img rounded-circle avatar-l">
+                    </div>
+
+                    <a href="#" class="text-center">
+                        <h4>@username</h4>
+                    </a>
+                    <div class="social">
+                        <i class="fas fa-star"></i>
+                        <span class="sharing-index">Joined in</span>
+                        <span class="sharing-index">May, 2019 </span>
+                        <br>
+                        <i class="far fa-thumbs-up"></i>
+                        <span class="sharing-index">20</span>
+                        <span class="sharing-index">Upvotes</span>
+                        <br>
+                        <i class="fas fa-user"></i>
+                        <span class="sharing-index">20</span>
+                        <span class="sharing-index">Followers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="card post-group">
+                    <div class="media post-title">
+                        <img src="image/chip-chat@2x.png" class="align-self-start mr-3 rounded-circle avatar-m">
+                        <div class="media-body">
+                            <a href="#">
+                                <h6>@username</h6>
+                            </a>
+                            <h3 class="mt-0">Post Title</h5>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-body post-content">
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </p>
+                            <a href="#" class="post-content-tag">#Google</a>
+                            <div class="social">
+                                <button><i class="far fa-thumbs-up"></i></button>
+                                <span class="sharing-index">20</span>
+                                <button><i class="far fa-comment-dots"></i></button>
+                                <span class="sharing-index">20</span>
+                                <button><i class="fas fa-share-square"></i></button>
+                                <span class="sharing-index">20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Write comment</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-highlight">Post Comment</button>
+                    <hr>
+                    <div class="comment-group">
+                        <div class="media post-title">
+                            <img src="image/chip-chat@2x.png" class="align-middle mr-3 rounded-circle avatar-s">
+                            <div class="media-body">
+                                <a href="#">
+                                    <h6>@username</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body post-content">
+                                <p>Thank your for sharing this! This is So Cool!</p>
+                                <div class="social">
+                                    <button><i class="far fa-thumbs-up"></i></button>
+                                    <span class="sharing-index">20</span>
+                                    <button><i class="far fa-comment-dots"></i></button>
+                                    <span class="sharing-index">20</span>
+                                    <button><i class="fas fa-share-square"></i></button>
+                                    <span class="sharing-index">20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-center">
+        <p>info@naivea.com</p>
+        <p>Copyright 2019 naivea.com</p>
+    </div>
+
+</body>
+
+</html>
