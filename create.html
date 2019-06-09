@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Naivea - Signup</title>
+    <title>Naivea - Create</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,6 +21,7 @@
     <script src="https://kit.fontawesome.com/04e98bbc3c.js"></script>
 
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -29,7 +30,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a class="navbar-brand" href="index.html">Naivea</a>
-            <span class="navbar-text">#1 Community for Programmers</span>
+            <span class="navbar-text">
+                #1 Community for Programmers
+            </span>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             </ul>
             <form class="form-inline">
@@ -41,29 +44,38 @@
     </nav>
     <div class="container">
         <div class="card card-center">
-            <h2 class="text-center title">Sign Up</h2>
+            <h2 class="text-center title">Create Post</h2>
             <div class="form-group">
-                <label for="exampleInputUsername">Username</label>
-                <input type="email" class="form-control" id="exampleInputUsername" placeholder="Enter username">
+                <label for="exampleInputTitle">Title</label>
+                <input type="title" class="form-control" placeholder="Enter post title">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Confirm Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
-            <br>
+                    <label for="exampleFormControlTextarea1">Content</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="input-group">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                          <label class="custom-file-label" for="inputGroupFile04">Choose file / image</label>
+                        </div>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Share File</button>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputTitle">Topic</label>
+                    <input type="title" class="form-control" placeholder="Type in topic">
+                </div>
+                <p>Suggested topic 
+                    <button class="btn-topic-tag">#Google</button>
+                    <button class="btn-topic-tag">#Google</button>
+                    <button class="btn-topic-tag">#Google</button>
+                </p>
+        <form class="form-inline inline-button-group">
+            <button type="submit" class="btn btn-outline-primary">Cancel</button>
+            <button type="submit" class="btn btn-primary">Post</button>
+            </form>
         </div>
-        <br>
-        <p class="text-center">Already have a account? <a href="signup.html">Log in</a></p>
     </div>
     <div class="footer text-center">
         <p>info@naivea.com</p>

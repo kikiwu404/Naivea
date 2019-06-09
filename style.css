@@ -1,3 +1,4 @@
+
 body{
     background-color:#F2F5FF;
     font-family: 'Nunito Sans', sans-serif;
@@ -8,6 +9,10 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+input, textarea{ 
+    border-radius: 2px !important;
+
 }
 .navbar-brand{
     font-family:'Krub', sans-serif;
@@ -29,18 +34,21 @@ a:hover{
     border-style:none;
 } */
 
+.input-group{
+    margin-bottom:1rem;
+}
 
 button{
     background-color:white;
     border-style:none;
 }
-button:active{
-    outline-color: none;
+button:focus{
+    outline: none;
 }
 
 .btn{
     border-radius: 2px;
-    padding:8px 16px;
+    padding:4px 12px;
 }
 .btn-primary{
     background-color: #4F79FF;
@@ -55,25 +63,38 @@ button:active{
     background-color: #335eeb;
     border-color: #335eeb;
 }
-.btn-outline-secondary{
+.btn-outline-primary{
     background-color: #F2F5FF;
     border-color: #4F79FF;
     color:#4F79FF;
 
 }
-
-.btn-outline-secondary:hover{
+.btn-outline-primary:hover{
     background-color: #4F79FF;
     border-color: #4F79FF;
     color:white;
 }
-.btn-outline-secondary:active{
+.btn-outline-primary:active{
     background-color: #4F79FF;
     border-color: #4F79FF;
     color:white;
 }
+.btn-topic-tag{
+    color:#4F79FF;
+    padding:4px;
+    outline:none;
+}
+.btn-topic-tag:focus{
+    color:gray;
+}
 
-
+.inline-button-group button{
+    width:48%;
+    margin-top:24px;
+}
+.inline-button-group{
+    justify-content: space-around;
+}
 .btn-highlight{
     background-color: linear-gradient(100deg, #FF557F, #4F79FF);
 }
@@ -97,6 +118,10 @@ button:active{
     width:64px;
     height:64px;
 
+}
+.avatar-xl{
+    width:96px;
+    height:96px;
 }
 .create-post{
     position:fixed;
@@ -140,8 +165,6 @@ button:active{
 }
 .center-img{
     margin:0px auto;
-    width:64px;
-    height:64px;
     margin-bottom: 12px;
     
 }
